@@ -1,0 +1,64 @@
+body{
+    background: #333;
+    color:#fff;
+    font-family: Roboto;
+}
+.navbar{
+    border-bottom: 3px solid blue;
+    opacity: 0.8;
+}
+.nav-link{
+    font-size:1.2rem;
+    font-weight: 500;
+
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-link .active{
+    color: #008ed6 !important;
+    font-size: 1.4rem;
+}
+#home{
+    background: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:700px;
+}
+#home dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(177, 15, 20, 0.5),rgb(12, 155, 36, 0.5));
+}
+#home .home-content{
+    padding-top: 150px;
+}
+#home .fa{
+    color: #008ed6;
+    background:white;
+    padding: 5px;
+    border-radius: 6px;
+}
+#exploreMain .fa{
+    color: #fff;
+    background: #333;
+    padding: 5px;
+    border-radius: 6px;
+}
+#createMain .fa{
+    color: #008ed6;
+    background:white;
+    padding: 5px;
+    border-radius: 6px;
+}
+#shareMain .fa{
+    color: #fff;
+    background: #333;
+    padding: 5px;
+    border-radius: 6px;
+}
